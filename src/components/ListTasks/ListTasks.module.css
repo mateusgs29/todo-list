@@ -1,0 +1,49 @@
+.headerListTasks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+ }
+
+.headerListTasks p {
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.headerListTasks p:nth-child(1) {
+    color: var(--blue);
+}
+
+.headerListTasks p:nth-child(2) {
+    color: var(--purple);
+}
+
+.countTasks {
+    color:  var(--gray-200);
+    background-color: var(--gray-400);
+    margin-left: .5rem;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.containerNoTasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+    border-top: 1px solid var(--gray-400);
+    color: var(--gray-300);
+}
+
+.containerNoTasks strong {
+    margin-top: 1rem;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.containerNoTasks span {
+    font-weight: 400;
+    line-height: 140%;
+}
