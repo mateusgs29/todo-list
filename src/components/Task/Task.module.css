@@ -8,6 +8,10 @@
     border: 1px solid var(--gray-400);
 }
 
+.task + .task {
+    margin-top: 12px;
+}
+
 .checkbox {
     appearance: none;
     background-color: transparent;
@@ -17,6 +21,7 @@
     border: 2px solid var(--blue);
     border-radius: 999px;
     cursor: pointer;
+    margin-top: 4px;
 }
 
 .checkbox:hover {
@@ -79,8 +84,14 @@
 
     line-height: 0;
     border-radius: 2px;
+    margin-top: 2px;
 }
 
 .task button:hover {
     color: var(--red);
+}
+
+.task .taskCheck {
+    text-decoration: line-through;
+    color: var(--gray-300);
 }
