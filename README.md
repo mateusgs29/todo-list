@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido durante a formação em React da Rocketseat. Criado com o objetivo de aprimorar habilidades em React e TypeScript, esse projeto consiste em uma lista de tarefas. Permite a adição de novas tarefas, marcação como resolvidas e exclusão das mesmas.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As seguintes ferramentas foram tilizadas na construção do projeto:
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/react-0D1117?style=for-the-badge&logo=react)
+![Typescript](https://img.shields.io/badge/typescript-0D1117?style=for-the-badge&logo=typescript)
+![CSS](https://img.shields.io/badge/css-0D1117?style=for-the-badge&logo=css3&logoColor=31A1D6)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Screenshot
 
-- Configure the top-level `parserOptions` property like this:
+<div align="center">
+    <img src="./screenshots/telaSemTarefas.png" alt="Tela de login" />
+    <img src="./screenshots/telaTarefas.png" alt="Tela de listagem das tasks" />
+</div>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Como rodar a aplicação
+
+Para o download do projeto, siga as instruções abaixo:
+
+```
+1. git clone https://github.com/mateusgs29/todo-list.git
+2. cd todo-list
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Instale as dependências e inicie o projeto:
+
+```
+1. npm install
+2. npm run dev
+```
