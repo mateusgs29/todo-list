@@ -30,7 +30,12 @@
     gap: 8px;
 }
 
-.addTask button:hover {
+.addTask button:not(:disabled):hover {
     background-color: var(--blue);
     cursor: pointer;
+}
+
+.addTask button:disabled {
+    opacity: .8;
+    cursor: not-allowed;
 }
